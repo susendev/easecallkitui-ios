@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  Pods
+
+  Created by lixiaoming on 2021/12/2.
+  
+*/
+"voice" = "Voz";
+"conferenece" = "Videollamada grupal";
+"video" = "Vídeo";
+"inviteInfo" = "Te invita a una llamada %@";
+"Huangup" = "Colgar";
+"Answer" = "Responder";
+"Mute" = "Silencio";
+"Hands-free" = "Manos libres";
+"Camera" = "Cámara";
+"SwitchCamera" = "Cambiar de cámara";
+"Call in progress" = "Llamada en curso";
+"waitforanswer" = "Esperando respuesta";
+"switchvoice" = "Cambiar a audio";
+"waitforanswer" = "Esperar a que la otra parte acepte la invitación";
+"receiveCallInviteprompt" = "Invitarte a una llamada de audio y video";
+"remoteUnmute" = "La otra persona encendió el audio";
+"remoteMute" = "La otra parte apagó el audio";

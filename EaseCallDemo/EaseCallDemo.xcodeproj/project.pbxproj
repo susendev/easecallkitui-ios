@@ -21,9 +21,11 @@
 		907CCB2325DE7ADF009AD53F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 907CCB2225DE7ADF009AD53F /* Assets.xcassets */; };
 		907CCB2625DE7ADF009AD53F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 907CCB2425DE7ADF009AD53F /* LaunchScreen.storyboard */; };
 		907CCB2925DE7ADF009AD53F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 907CCB2825DE7ADF009AD53F /* main.m */; };
+		F4BB962A328C7D2F84D53886 /* Pods_EaseCallDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E61EE5AD7FE46BD5A972421 /* Pods_EaseCallDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E61EE5AD7FE46BD5A972421 /* Pods_EaseCallDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EaseCallDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		902DA81C25DFA93D0098E6DF /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		902DA81D25DFA93D0098E6DF /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		902DA82025DFA9B80098E6DF /* UIStoryboard+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+Category.h"; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		907CCB2525DE7ADF009AD53F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		907CCB2725DE7ADF009AD53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		907CCB2825DE7ADF009AD53F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1D690C9ABFAEFB47B8B8B53 /* Pods-EaseCallDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseCallDemo.release.xcconfig"; path = "Target Support Files/Pods-EaseCallDemo/Pods-EaseCallDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A66DA2EA151D281331605D91 /* Pods-EaseCallDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseCallDemo.debug.xcconfig"; path = "Target Support Files/Pods-EaseCallDemo/Pods-EaseCallDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4BB962A328C7D2F84D53886 /* Pods_EaseCallDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +116,7 @@
 				907CCB1525DE7ADC009AD53F /* EaseCallDemo */,
 				907CCB1425DE7ADC009AD53F /* Products */,
 				B9B6DCE0E351CF7916E03507 /* Frameworks */,
+				CD817EBA1078B8664FB81477 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,8 +147,19 @@
 		B9B6DCE0E351CF7916E03507 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7E61EE5AD7FE46BD5A972421 /* Pods_EaseCallDemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD817EBA1078B8664FB81477 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A66DA2EA151D281331605D91 /* Pods-EaseCallDemo.debug.xcconfig */,
+				A1D690C9ABFAEFB47B8B8B53 /* Pods-EaseCallDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -408,6 +425,7 @@
 		};
 		907CCB2D25DE7ADF009AD53F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A66DA2EA151D281331605D91 /* Pods-EaseCallDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -429,6 +447,7 @@
 		};
 		907CCB2E25DE7ADF009AD53F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1D690C9ABFAEFB47B8B8B53 /* Pods-EaseCallDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
