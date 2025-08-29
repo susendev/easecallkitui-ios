@@ -1,0 +1,17 @@
+"voice" = "Sprachanruf";
+"conferenece" = "Gruppenvideoanruf";
+"video" = "Videoanruf";
+"inviteInfo" = "Sie wurden zu einem %@-Anruf eingeladen";
+"Huangup" = "Auflegen";
+"Answer" = "Annehmen";
+"Mute" = "Stummschalten";
+"Hands-free" = "Lautsprecher";
+"Camera" = "Kamera";
+"SwitchCamera" = "Kamera wechseln";
+"Call in progress" = "Anruf läuft";
+"waitforanswer" = "Warten auf Annahme";
+"switchvoice" = "Zu Audio wechseln";
+"waitforanswer" = "Warten auf Annahme der Einladung";
+"receiveCallInviteprompt" = "Einladung zu einem Audio-oder Videoanruf";
+"remoteUnmute" = "Audio wurde aktiviert (Gegenpartei)";
+"remoteMute" = "Audio wurde deaktiviert (Gegenpartei)";
