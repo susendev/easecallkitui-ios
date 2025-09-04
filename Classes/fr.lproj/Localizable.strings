@@ -1,10 +1,3 @@
-/* 
-  Localizable.strings
-  Pods
-
-  Created by lixiaoming on 2021/12/2.
-  
-*/
 
 "voice" = "Voix";
 "conferenece" = "Conférence";
@@ -17,9 +10,8 @@
 "Camera" = "Caméra";
 "SwitchCamera" = "Changer de caméra";
 "Call in progress" = "Appel en cours";
-"waitforanswer" = "En attente";
-"switchvoice" = "Passer à l'audio";
 "waitforanswer" = "Attendre que l’autre partie accepte l’invitation";
+"switchvoice" = "Passer à l'audio";
 "receiveCallInviteprompt" = "Vous inviter à un appel audio et vidéo";
 "remoteUnmute" = "L’autre personne a activé l’audio";
 "remoteMute" = "L’autre partie a désactivé l’audio";
